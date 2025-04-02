@@ -1,40 +1,42 @@
-![image](./img/image.png)
-
 # Calculator react freeCodeCamp
 
-Descrição do app
+![image](./src/img/image.png)
+
+App construído para um módulo do curso Front End Libraries do freeCodeCamp.
+
+### Possui os seguintes filtros:
+
+-   Não estrapola o tamanho da tela.
+-   Não permite repetir o operador indiscriminadamente.
+-   Se um operador for o último item digitado, um novo operador digitado o substitui.
+-   Se operador decimal for o primeiro digito, acrescenta um '0' antes dele.
+-   Armazena na memória o último resultado quando uma nova operação é realizada.
+-   Retorna "ERRO" quando uma operação inválida é construída.
 
 ## Uso
 
-### Instalação
+Opcionalmente, você não precisa instalar. Pode ir à uma versão simplificada no CodePen: https://codepen.io/maykopr/full/oNJjYJK
 
-Sem necessidade de instalação. Depois de baixar o projeto, basta abrir o arquivo
-na pasta raiz.
+Mas caso queira baixar e instalar:
+
+1. Tenha certeza que você tem o Node e o Git instalado.
+2. Clone este repositório usando `git clone https://github.com/Maykopr/calculator-react-freecodecamp.git`
+3. Vá para o diretório raiz `cd <caminho-da-pasta>`
+4. Rode o comando `npm install` para instalar todas as dependências.
+5. Rode o comando `npm run dev` para ter um preview, ou utilize qualquer dos scripts Vite no package.json.
 
 ## Construído com
 
 ![GIT](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=githublogoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 ![Node.Js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
 
 ## Autor
 
