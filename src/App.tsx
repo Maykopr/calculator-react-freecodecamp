@@ -81,8 +81,8 @@ function App() {
 	};
 
 	const filterOutput = (output: string): string => {
-		if (output.length > 15) {
-			return output.substring(0, 15);
+		if (output.length > 10) {
+			return output.substring(0, 10);
 		}
 		return output;
 	};
